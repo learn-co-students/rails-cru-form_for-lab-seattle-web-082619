@@ -1,0 +1,7 @@
+<h3>Song Name</h3>
+<%= form_for(@song) do |f| %>
+  <label>Song:</label><br>
+  <%= f.text_field :name %><br>
+  <%= f.submit %>
+
+<% end %>
