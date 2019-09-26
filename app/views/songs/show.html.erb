@@ -1,4 +1,4 @@
 <%=@song.name%>
 <%=link_to @song.genre.name, genre_path(@song.genre)%>
-#chaining to get the attributes we are looking for. 
+<!--chaining to get the attributes we are looking for -->
 <%=link_to @song.artist.name, genre_path(@song.artist)%>
