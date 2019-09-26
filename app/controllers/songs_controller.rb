@@ -22,10 +22,10 @@ class SongsController < ApplicationController
 
   def show
     @song = id_params
-    @genre = @song.genre
-    @artist = @song.artist
-
+    # @genre = @song.genre
+    # @artist = @song.artist
   end 
+  
   
   def edit
     @song = id_params 
